@@ -10,7 +10,7 @@
 	</ol>
 </section>
 <div class="row">
-	<div class="col-md-5">
+	<div class="col-md-6">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				QUESTIONS
@@ -56,7 +56,7 @@
 			</div>
 		</div>		
 	</div>	
-	<div class="col-md-4">
+	<div class="col-md-6">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				COMMENTS
@@ -73,14 +73,14 @@
 			</div>
 		</div>
 	</div>	
-	<div class="col-md-3">
+	<div class="col-md-12">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				DEMOGRAPHIC QUESTIONS
 			</div>
 			<div class="panel-body">
 				<?=form_label('1. Please select the Department you work in (select only one)')?>
-				<p>Jawab : <?=form_dropdown('dem_1',$this->mdl_divisi->dropdown('EN'),set_value('dem_1',(isset($row->dem_1)?$row->dem_1:"")),'style="width:100%"')?></p><hr>
+				<p>Jawab : <?=form_dropdown('dem_1',$this->mdl_divisi->dropdown('EN'),set_value('dem_1',(isset($row->dem_1)?$row->dem_1:"")))?></p><hr>
 				<?=form_label('2. Please select the location you work in (select only one)')?>
 				<p>Jawab : <?=form_dropdown('dem_2',dropnum(23),set_value('dem_2',(isset($row->dem_2)?$row->dem_2:"")))?></p><hr>
 				<?=form_label('3. Which of the following best describes your role in this organisation')?>

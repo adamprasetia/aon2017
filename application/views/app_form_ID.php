@@ -10,7 +10,7 @@
 	</ol>
 </section>
 <div class="row">
-	<div class="col-md-5">
+	<div class="col-md-6">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				PERTANYAAN
@@ -63,7 +63,7 @@
 			</div>
 		</div>		
 	</div>	
-	<div class="col-md-4">
+	<div class="col-md-6">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				KOMENTAR
@@ -80,15 +80,15 @@
 			</div>
 		</div>
 	</div>	
-	<div class="col-md-3">
+	<div class="col-md-12">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
 				DEMOGRAPHIC PERTANYAAN
 			</div>
 			<div class="panel-body">
 				<?=form_label('1. Anda berasal dari function dan unit operation mana ?')?>
-				<p>Jawab : <?=form_dropdown('dem_1',$this->mdl_divisi->dropdown('ID'),set_value('dem_1',(isset($row->dem_1)?$row->dem_1:"")),'style="width:100%"')?></p><hr>
-				<p>Group : <?=form_dropdown('dem_1_group',group_dropdown(),set_value('dem_1_group',(isset($row->dem_1_group)?$row->dem_1_group:"")),'style="width:100%"')?></p><hr>
+				<p>Jawab : <?=form_dropdown('dem_1',$this->mdl_divisi->dropdown('ID'),set_value('dem_1',(isset($row->dem_1)?$row->dem_1:"")))?></p><hr>
+				<p>Group : <?=form_dropdown('dem_1_group',group_dropdown(),set_value('dem_1_group',(isset($row->dem_1_group)?$row->dem_1_group:"")))?></p><hr>
 				<?=form_label('2. Yang mana dari pilihan di bawah ini yang paling baik menjelaskan peran Anda dalam organisasi')?>
 				<p>Jawab : <?=form_dropdown('dem_2',dropnum(3),set_value('dem_2',(isset($row->dem_2)?$row->dem_2:"")))?></p><hr>
 				<?=form_label('3. Yang mana dari pilihan di bawah ini yang menjelaskan lama bekerja Anda')?>
@@ -102,7 +102,7 @@
 				<?=form_label('7. Apakah posisi Anda termasuk frontline? Pilih Ya, jika posisi Anda tersebut di bawah:')?>
 				<p>Jawab : <?=form_dropdown('dem_7',dropnum(2),set_value('dem_7',(isset($row->dem_7)?$row->dem_7:"")))?></p>
 				<?=form_label('8. Pilih posisi Anda:')?>
-				<p>Jawab : <?=form_dropdown('dem_8',position_dropdown(),set_value('dem_8',(isset($row->dem_8)?$row->dem_8:"")),'style="width:100%"')?></p><hr>
+				<p>Jawab : <?=form_dropdown('dem_8',position_dropdown(),set_value('dem_8',(isset($row->dem_8)?$row->dem_8:"")))?></p><hr>
 			</div>	
 		</div>	
 	</div>	
