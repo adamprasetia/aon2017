@@ -497,6 +497,10 @@ function ex_dem_8_id($id){
             return 'Marketing - NCC Representative';
             break;
             
+        case '8':
+            return 'Sales Modern Trade - Merchandiser';
+            break;
+            
         default:
             return '';
             break;
