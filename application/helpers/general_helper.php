@@ -718,6 +718,7 @@ function position_dropdown()
         '2'=>'Sales General Trade - District Sales Manager / Assistant Sales Manager',
         '3'=>'Sales General Trade - Key Account Manager',
         '4'=>'Sales Modern Trade - Sales Representative',
+        '8'=>'Sales Modern Trade - Merchandiser',
         '5'=>'Sales Modern Trade - District Sales Manager',
         '6'=>'Sales Modern Trade - National / Key Account Executive / Manager',
         '7'=>'Marketing - NCC Representative',
