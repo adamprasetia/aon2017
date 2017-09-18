@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class fee extends MY_Controller {
-	private $harga = 600;
+	private $harga = 700;
 	function __construct(){
 		parent::__construct();
 		$this->load->model('mdl_fee');
