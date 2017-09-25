@@ -405,8 +405,8 @@ class App extends MY_Controller {
 			$active_sheet->setCellValue('BD'.$i, ex_quesioner_en($quesioner[53-1]));
 			$active_sheet->setCellValue('BE'.$i, ex_quesioner_en($quesioner[54-1]));
 			$active_sheet->setCellValue('BF'.$i, ex_quesioner_en($quesioner[55-1]));
-			$active_sheet->setCellValue('BG'.$i, strtolower($r->com_1));
-			$active_sheet->setCellValue('BH'.$i, strtolower($r->com_2));
+			$active_sheet->setCellValue('BG'.$i, ucfirst($r->com_1));
+			$active_sheet->setCellValue('BH'.$i, ucfirst($r->com_2));
 			if ($r->country=='ID') {
 				$active_sheet->setCellValue('BI'.$i, $r->divisi_no.' - '.$r->divisi);
 				$active_sheet->setCellValue('BJ'.$i, ($r->dem_1_group?ex_dem_1_group_id($r->dem_1_group):$r->divisi_no.' - '.$r->divisi));
