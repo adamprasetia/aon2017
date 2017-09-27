@@ -510,95 +510,95 @@ function ex_dem_8_id($id){
 function ex_dem_2_en($id){
     switch ($id) {
         case '1':
-            return 'Alotau';
+            return '1 - Alotau';
             break;
         
         case '2':
-            return 'Buka';
+            return '2 - Buka';
             break;
         
         case '3':
-            return 'Central Warehouse';
+            return '3 - Central Warehouse';
             break;
                 
         case '4':
-            return 'Goroka';
+            return '4 - Goroka';
             break;
                 
         case '5':
-            return 'Hagen';
+            return '5 - Hagen';
             break;
                 
         case '6':
-            return 'Head Office';
+            return '6 - Head Office';
             break;
                 
         case '7':
-            return 'Honiara';
+            return '7 - Honiara';
             break;
                 
         case '8':
-            return 'Kainantu';
+            return '8 - Kainantu';
             break;
                 
         case '9':
-            return 'Kavieng';
+            return '9 - Kavieng';
             break;
                 
         case '10':
-            return 'Kimbe';
+            return '10 - Kimbe';
             break;
                 
         case '11':
-            return 'Kokopo';
+            return '11 - Kokopo';
             break;
                 
         case '12':
-            return 'Kundiawa';
+            return '12 - Kundiawa';
             break;
                 
         case '13':
-            return 'Lae Depot';
+            return '13 - Lae Depot';
             break;
                 
         case '14':
-            return 'Lae Production';
+            return '14 - Lae Production';
             break;
                 
         case '15':
-            return 'Madang';
+            return '15 - Madang';
             break;
                 
         case '16':
-            return 'Mendi';
+            return '16 - Mendi';
             break;
                 
         case '17':
-            return 'Popendetta';
+            return '17 - Popendetta';
             break;
                 
         case '18':
-            return 'Port Moresby';
+            return '18 - Port Moresby';
             break;
                 
         case '19':
-            return 'Raw Materials';
+            return '19 - Raw Materials';
             break;
                 
         case '20':
-            return 'Vanimo';
+            return '20 - Vanimo';
             break;
                 
         case '21':
-            return 'Wabag';
+            return '21 - Wabag';
             break;
                 
         case '22':
-            return 'Western';
+            return '22 - Western';
             break;
                 
         case '23':
-            return 'Wewak';
+            return '23 - Wewak';
             break;
                 
         default:
@@ -609,19 +609,19 @@ function ex_dem_2_en($id){
 function ex_dem_3_en($id){
     switch ($id) {
         case '1':
-            return 'I report in to the PNG Country Leadership Team for my bussiness';
+            return '1 - I report in to the PNG Country Leadership Team for my bussiness';
             break;
         
         case '2':
-            return 'I lead people who also lead teams';
+            return '2 - I lead people who also lead teams';
             break;
         
         case '3':
-            return 'I lead a team';
+            return '3 - I lead a team';
             break;
         
         case '4':
-            return 'I have no direct reports';
+            return '4 - I have no direct reports';
             break;
         
         default:
@@ -632,39 +632,39 @@ function ex_dem_3_en($id){
 function ex_dem_4_en($id){
     switch ($id) {
         case '1':
-            return 'Less than 6 months';
+            return '1 - Less than 6 months';
             break;
         
         case '2':
-            return 'More than 6 months but less than 1 year';
+            return '2 - More than 6 months but less than 1 year';
             break;
         
         case '3':
-            return '1 to less than 2 years';
+            return '3 - 1 to less than 2 years';
             break;
 
         case '4':
-            return '2 to 5 years';
+            return '4 - 2 to 5 years';
             break;
 
         case '5':
-            return '6 to 10 years';
+            return '5 - 6 to 10 years';
             break;
 
         case '6':
-            return '11-15 years';
+            return '6 - 11-15 years';
             break;
 
         case '7':
-            return '16 - 20 years';
+            return '7 - 16 - 20 years';
             break;
 
         case '8':
-            return '21 to 25 years';
+            return '8 - 21 to 25 years';
             break;
 
         case '9':
-            return '26 years or longer';
+            return '9 - 26 years or longer';
             break;
 
         default:
@@ -675,11 +675,11 @@ function ex_dem_4_en($id){
 function ex_dem_5_en($id){
     switch ($id) {
         case '1':
-            return 'Male';
+            return '1 - Male';
             break;
         
         case '2':
-            return 'Female';
+            return '2 - Female';
             break;
             
         default:
@@ -690,23 +690,23 @@ function ex_dem_5_en($id){
 function ex_dem_6_en($id){
     switch ($id) {
         case '1':
-            return 'Under 25 years';
+            return '1 - Under 25 years';
             break;
         
         case '2':
-            return '25 to 34 years old';
+            return '2 - 25 to 34 years old';
             break;
             
         case '3':
-            return '35-44 years old';
+            return '3 - 35-44 years old';
             break;
             
         case '4':
-            return '45 - 54 years old';
+            return '4 - 45 - 54 years old';
             break;
             
         case '5':
-            return '55 years or above';
+            return '5 - 55 years or above';
             break;
             
         default:
